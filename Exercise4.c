@@ -12,7 +12,6 @@ Ex:
 #include <stdlib.h>
 
 int ex4(char *testcase){
-	int ex4(char *testcase){
 	   
 	   int c = 0, d = 0;
 	   char blank[1000];
@@ -37,16 +36,6 @@ int ex4(char *testcase){
    printf("%s\n", blank);
  
    return 0;
-}
-
-int main(int argc, char *argv[]) {
-	//testing variable, applying it to your algorithm for auto-evaluating
-	char *testcase = "  this  is an   unformatted  string ";
-
-	ex4(testcase);
-		
-	return 0;
-}
 }
 
 int main(int argc, char *argv[]) {
