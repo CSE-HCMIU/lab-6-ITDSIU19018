@@ -32,8 +32,13 @@ int ex3(char *str){
         if(strlen(l) < strlen(w[k]))  
             strcpy(l, w[k]);  
     }  
-}
-
+	    }  
+      
+    printf("%s", s);  
+    printf("%s", l);  
+      
+    return 0;  
+}  
 int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	char *str = "This is a string";
