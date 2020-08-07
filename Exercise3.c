@@ -34,7 +34,7 @@ int ex3(char *str){
     }  
 	      
       
-    printf("%s", s);  
+    printf("%s ", s);  
     printf("%s", l);  
       
     return 0;  
