@@ -17,9 +17,6 @@ while(n !=0){
     d=d+1;
     m/=10;
     }
-
-	printf("Enter number: ");
-	scanf("%d", &n);
     for (i=0; i<d; i++)
     {
     	a[i] = n%10;
