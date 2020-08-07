@@ -32,7 +32,7 @@ int ex3(char *str){
         if(strlen(l) < strlen(w[k]))  
             strcpy(l, w[k]);  
     }  
-	    }  
+	      
       
     printf("%s", s);  
     printf("%s", l);  
