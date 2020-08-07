@@ -8,9 +8,30 @@ Ex:
 */
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>  
 int ex3(char *str){
-	//your codes here
+    char w[100][100], s[100], l[100];  
+    int i = 0, j = 0, k, length;  
+    for(k=0; str[k]!='\0'; k++){  
+        if(str[k] != ' ' && str[k] != '\0'){  
+            w[i][j++] = str[k];  
+        }  
+        else{  
+            w[i][j] = '\0';  
+            i++;  
+            j = 0;  
+        }  
+    }  
+    length = i + 1;  
+    strcpy(s, w[0]);  
+    strcpy(l, w[0]);  
+    for(k = 0; k < length; k++){  
+        if(strlen(s) > strlen(w[k])){  
+            strcpy(s, w[k]);  
+        }  
+        if(strlen(l) < strlen(w[k]))  
+            strcpy(l, w[k]);  
+    }  
 }
 
 int main(int argc, char *argv[]) {
