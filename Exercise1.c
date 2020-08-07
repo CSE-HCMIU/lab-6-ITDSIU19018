@@ -11,9 +11,8 @@
 
 int ex1(int n){
 	int d=0,m,i,a[8999797];
-int n=434;
-m=n;
-while(n !=0){
+	m=n;
+	while(n !=0){
     d=d+1;
     m/=10;
     }
